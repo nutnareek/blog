@@ -3,6 +3,7 @@ layout: post
 title: "Write a Post"
 date: 2022-05-27
 categories: jekyll blogging
+featured_image: c-dustin-IV5q8KIg2lw-unsplash.jpg
 ---
 
 The goal of this article is to add some extra info
