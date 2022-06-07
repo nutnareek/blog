@@ -51,7 +51,7 @@ body {
     display: flex;
     flex-wrap: wrap-reverse;
   
-    div:first-child {
+    div:first-of-type {
       flex: 4 0 200px;
     }
 
