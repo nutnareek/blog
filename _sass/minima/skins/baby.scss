@@ -1,18 +1,31 @@
 @charset "utf-8";
 
+$base-color:            #fff7c9;
+$accent-color:          #f7c4d4;
+$sub-color:             #c0e4f2;
+$dark-sub-color:        #4f5d75;
+$dark-accent-color:     #81667a;
+$base-color-light:      lighten($base-color, 5%) !default;
+$base-color-dark:       darken($base-color, 25%) !default;
+$accent-color-light:    lighten($accent-color, 7%) !default;
+$accent-color-dark:     darken($accent-color, 10%) !default;
+$sub-color-light:       lighten($sub-color, 20%) !default;
+$sub-color-dark:        darken($sub-color, 25%) !default;
+
 $brand-color:           #828282 !default;
 $brand-color-light:     lighten($brand-color, 40%) !default;
 $brand-color-dark:      darken($brand-color, 25%) !default;
 
-$site-title-color:      $brand-color-dark !default;
+$site-title-color:      darken($sub-color, 30%) !default;//$brand-color-dark !default;
+$site-nav-title-color:  darken($sub-color, 20%) !default;
 
 $text-color:            #111111 !default;
 $background-color:      #fdfdfd !default;
-$code-background-color: #eeeeff !default;
+$code-background-color: lighten($base-color, 7%) !default;//#eeeeff !default;
 
-$link-base-color:       #2a7ae2 !default;
+$link-base-color:       $sub-color-dark;//#2a7ae2 !default;
 $link-visited-color:    darken($link-base-color, 15%) !default;
-$link-hover-color:      $text-color !default;
+$link-hover-color:      $sub-color; //$text-color !default;
 
 $border-color-01:       $brand-color-light !default;
 $border-color-02:       lighten($brand-color, 35%) !default;
@@ -24,6 +37,7 @@ $table-header-bg-color: lighten($brand-color, 43%) !default;
 $table-header-border:   lighten($brand-color, 37%) !default;
 $table-border-color:    $border-color-01 !default;
 
+$social-face-color:     $accent-color !default;
 
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
 // ----------------------------------------------------------------------------
